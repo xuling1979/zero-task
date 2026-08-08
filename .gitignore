@@ -51,3 +51,4 @@ node_modules
 !/.env.sample
 /.erb_lint_cache
 /vendor
+/vendor/*
