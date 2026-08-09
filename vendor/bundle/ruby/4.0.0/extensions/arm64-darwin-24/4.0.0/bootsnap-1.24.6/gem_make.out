@@ -1,0 +1,23 @@
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+/Users/xl/.local/share/mise/installs/ruby/4.0.6/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-21767-opuzvu sitelibdir\=./.gem.20260808-21767-opuzvu clean
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-21767-opuzvu sitelibdir\=./.gem.20260808-21767-opuzvu
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-21767-opuzvu sitelibdir\=./.gem.20260808-21767-opuzvu install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20260808-21767-opuzvu/bootsnap
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260808-21767-opuzvu sitelibdir\=./.gem.20260808-21767-opuzvu clean

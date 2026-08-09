@@ -1,0 +1,52 @@
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+/Users/xl/.local/share/mise/installs/ruby/4.0.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-29129-99wysn sitelibdir\=./.gem.20260808-29129-99wysn clean
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-29129-99wysn sitelibdir\=./.gem.20260808-29129-99wysn
+compiling html_tokenizer.c
+compiling parser.c
+compiling tokenizer.c
+tokenizer.cparser.c::460:45: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+138:106: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  460   |     138 |   r  INb_yiT2NUMeld_v(arleufe.lines_(n3u,m bteor), IkNeTn2_NUM(rtype_ef.coltuom_ns_ynmumberb)o)l;(
+t      y| p                                ~~~~~~~ ~~~~^~~~~~~~~~~~~e
+), INTparser.c:460:2NUM19: warning: (tk-implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+>scan  .460m | b _ c u   INT2rNsUoMr()r,e f.line_InNuTm2ber), INNUM(tTk2-N>UsM(refc.acno.lumnmb_cur_snourmber) )+; 
+m      b| _      ~~~~~~~ ~~~~^~~~~~~~~~~
+lparser.cengt:h)459);:
+      | 51: warning:                                                                               ~~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+
+  459 |      tokenizer.c :I138N:T672:N Uwarning: Mimplicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32](
+ref.mb_star  t138 |   r)b_, INTy2NUM(ireelfd._mvba_lsuteasr(t3 ,+ toke nm_bt_ype_to_symbsotlr(typel)e,n )INT2NUM(,t
+k      -| >scan                             ~~~~~~~ ~~~~~~~~~~~~~^~~~~~~~~~~
+.mb_cursparser.co:r), I459:19:NT2N Uwarning: Mimplicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32](
+tk->scan  459 |     .mb_curs o rI N+T mb_leng2tNhU)M)(;
+      |                                                  ~~~~~~~ ~~~~~~~~~^~~~~~~~~r
+ef.mb_start), INT2NUM(ref.mb_start + mb_strlen),
+      |       ~~~~~~~ ~~~~^~~~~~~~
+parser.c:499:9: warning: unused variable 'old' [-Wunused-variable]
+  499 |   void *old = parser->doc.data;
+      |         ^~~
+tokenizer.c:467:9: warning: variable 'old' set but not used [-Wunused-but-set-variable]
+  467 |   void *old;
+      |         ^
+parser.c:722:26: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  722 |   return INT2NUM(parser->errors_count);
+      |          ~~~~~~~ ~~~~~~~~^~~~~~~~~~~~
+tokenizer.c:669:15: warning: unused variable 'old' [-Wunused-variable]
+  669 |   const char *old = tk->scan.string;
+      |               ^~~
+6 warnings generated.
+4 warnings generated.
+linking shared-object better_html_ext.bundle
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260808-29129-99wysn sitelibdir\=./.gem.20260808-29129-99wysn install
+/usr/bin/install -c -m 0755 better_html_ext.bundle ./.gem.20260808-29129-99wysn
+
+current directory: /Volumes/xl/src/rails/zero_task/vendor/bundle/ruby/4.0.0/gems/better_html-2.2.0/ext/better_html_ext
+make DESTDIR\= sitearchdir\=./.gem.20260808-29129-99wysn sitelibdir\=./.gem.20260808-29129-99wysn clean
