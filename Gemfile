@@ -19,6 +19,7 @@ gem "thruster", require: false
 gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[windows jruby]
 gem "vite_rails", "~> 3.0"
+gem "ruby-vips", "~> 2.0"
 
 group :development, :test do
   gem "amazing_print"

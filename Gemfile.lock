@@ -475,6 +475,7 @@ DEPENDENCIES
   rubocop-factory_bot
   rubocop-performance
   rubocop-rails
+  ruby-vips (~> 2.0)
   selenium-webdriver
   shoulda-matchers
   simplecov
