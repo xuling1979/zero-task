@@ -11,6 +11,7 @@ gem "kamal", require: false
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "rails", "~> 8.1.3", ">= 8.1.3.1"
+gem "ruby-vips", "~> 2.0"
 gem "solid_cable"
 gem "solid_cache"
 gem "solid_queue"
@@ -18,7 +19,6 @@ gem "stimulus-rails"
 gem "thruster", require: false
 gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[windows jruby]
-gem "ruby-vips", "~> 2.0"
 gem "vite_rails", "~> 3.0"
 
 group :development, :test do

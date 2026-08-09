@@ -45,7 +45,7 @@ jobs:
       RUBOCOP_CACHE_ROOT: tmp/rubocop
     steps:
       - name: Install system dependencies libvips
-        run: |
+        run:
           sudo apt-get update
           sudo apt-get install -y libvips42
 
